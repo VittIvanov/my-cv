@@ -24,8 +24,8 @@ export const AppStyles = createGlobalStyle`
       font-size: 14px;
       font-style: normal;
       font-weight: 500;
-      margin: 0;
-      min-width: 320px;
+      margin: auto;
+      max-width: 320px;
       overflow-x: hidden;
       background: linear-gradient(45deg, ${colors.background_first}, ${colors.background_second}, ${colors.background_third}, ${colors.background_fourth});
       background-size: 200% 200%;
@@ -33,8 +33,10 @@ export const AppStyles = createGlobalStyle`
       animation: gradientAnimation 15s ${colors.animation} infinite;
 
 
-      @media screen and (min-width: 767px) {
-        min-width: 1440px;
+      @media screen and (min-width: 769px) {
+        max-width: 1440px;
+        margin: 0 auto;
+
 }
     }
 

@@ -87,7 +87,7 @@ const CvDescription: React.FC = () => {
 
           <div className="cv-details_education details-container_item">
             <h2>Образование</h2>
-            КГТУ им. И.Раззакова, г.Бишкек, Кыргызстан
+            КГТУ им. И.Раззакова
             <div>Энергетический факультет</div>
             <div>2005-2010</div>
           </div>

@@ -14,11 +14,11 @@ export const PageWrapper = styled.div`
   padding: 40px 0px;
   box-sizing: border-box;
 
-  @media screen and (max-width: 650px) {
+  @media (min-width: 320px) and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 360px;
+    max-width: 320px;
     min-height: 100vh;
   }
 
@@ -29,7 +29,7 @@ export const PageWrapper = styled.div`
     top: 6px;
     right: 41px;
 
-    @media screen and (max-width: 650px){
+    @media (min-width: 320px) and (max-width: 768px) {
       position: static;
     }
   }

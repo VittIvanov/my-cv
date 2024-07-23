@@ -9,19 +9,20 @@ export const CvDescriptionWrapper = styled.div`
   padding: 0px;
   min-height: 100vh;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 768px) {
     margin: 0px;
   }
 
 
   .cv-container{
+    @media screen and (max-width: 768px) {
+      margin: 0px;
+    }
+
     margin: 31px;
     margin-right: 39px;
     margin-top: 0px;
 
-  @media screen and (max-width: 650px) {
-    margin: 20px;
-  }
 }
 
   .cv-info{
@@ -29,7 +30,7 @@ export const CvDescriptionWrapper = styled.div`
     width: 1129px;
     margin: 0px;
     margin-right: auto;
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 768px) {
       max-width: 360px;
       flex-direction: column;
       align-items: center;
@@ -44,8 +45,9 @@ export const CvDescriptionWrapper = styled.div`
     margin-bottom: 25px;
   }
 
-  @media screen and (max-width: 650px){
+  @media screen and (max-width: 768px){
     max-width: 360px;
+    margin: 20px auto
   }
 }
 
@@ -73,7 +75,7 @@ padding-left: 10px;
     position: relative;
     border: 1px solid white;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 768px) {
     max-width: 360px;
   }
 }
@@ -89,7 +91,7 @@ padding-left: 10px;
   /* background:url(${process.env.PUBLIC_URL + "assets/svg/border-arrow.svg"}) no-repeat center center; */
 
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 768px) {
   left: 50%;
   }
 }
@@ -109,7 +111,7 @@ padding-left: 10px;
     margin: 8px;
   }
 
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 768px) {
   padding-left: 196px;
 
     h2{
@@ -133,7 +135,7 @@ padding-left: 10px;
     margin: 14px;
   }
 
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 768px) {
     li{
     margin-right: 32px;
   }
@@ -148,7 +150,7 @@ padding-left: 10px;
   overflow: hidden;
   transition: opacity 2s ease-in-out, transform 2s ease-in-out;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 768px) {
   transform: translateY(100%);
   }
 
@@ -157,7 +159,7 @@ padding-left: 10px;
   opacity: 1;
   transform: translateX(0);
   transition: opacity 2s ease-in-out, transform 2s ease-in-out;
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 768px) {
     transform: translateY(0);
   }
   }

@@ -3,7 +3,7 @@ import { CvHeaderWrapper } from "./styled"
 const CvHeader: React.FC = () => {
   return (
     <CvHeaderWrapper>
-      <img src={process.env.PUBLIC_URL + "assets/img/photo_1_2024-07-23_13-19-27.jpg"} className="photo_header" alt="Photo" width={"322px"} height={"355px"}></img>
+      <img src={process.env.PUBLIC_URL + "/assets/img/photo_1_2024-07-23_13-19-27.jpg"} className="photo_header" alt="Photo" width={"322px"} height={"355px"}></img>
 
       <section className="header-description">
         <div className="name">
