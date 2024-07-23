@@ -1,8 +1,12 @@
-import HomePage from "./pages/HomePage/HomePage"
+import CvPage from "./pages/CvPage/index"
+import { AppStyles } from "./App.styled"
 
 const App: React.FC = () => {
   return (
-    <HomePage />
+    <>
+      <AppStyles />
+      <CvPage />
+    </>
   )
 }
 
