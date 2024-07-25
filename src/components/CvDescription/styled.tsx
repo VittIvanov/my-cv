@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import colors from "../../consts/colors/colors"
+import colors from "../../consts/colors"
 
 export const CvDescriptionWrapper = styled.div`
   display: flex;
@@ -47,7 +47,8 @@ export const CvDescriptionWrapper = styled.div`
 
   @media screen and (max-width: 768px){
     max-width: 360px;
-    margin: 20px auto
+    margin: 0px auto;
+    padding: 0px 20px;
   }
 }
 

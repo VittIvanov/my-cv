@@ -1,5 +1,6 @@
-import styled, { createGlobalStyle } from "styled-components"
-import colors from "./consts/colors/colors"
+import { createGlobalStyle } from "styled-components"
+import colors from "./consts/colors"
+import animation from "./consts/animation"
 
 export const AppStyles = createGlobalStyle`
 
@@ -21,6 +22,7 @@ export const AppStyles = createGlobalStyle`
       -webkit-font-smoothiing: antialiased;
       -moz-osx-font-smoothiing: grayscale;
       font-family: 'TT Commons', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: ${colors.background_primary};
       font-size: 14px;
       font-style: normal;
       font-weight: 500;
@@ -29,9 +31,7 @@ export const AppStyles = createGlobalStyle`
       overflow-x: hidden;
       background: linear-gradient(45deg, ${colors.background_first}, ${colors.background_second}, ${colors.background_third}, ${colors.background_fourth});
       background-size: 200% 200%;
-      background-color: ${colors.background_primary};
-      animation: gradientAnimation 15s ${colors.animation} infinite;
-
+      animation: gradientAnimation 15s ${animation.ease_animation} infinite;
 
       @media screen and (min-width: 769px) {
         max-width: 1440px;
@@ -39,7 +39,6 @@ export const AppStyles = createGlobalStyle`
 
 }
     }
-
 
     @keyframes gradientAnimation {
       0% { background-position: 0% 50%; }

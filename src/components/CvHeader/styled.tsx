@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import colors from "../../consts/colors/colors"
+import colors from "../../consts/colors"
 
 export const CvHeaderWrapper = styled.div`
 position: relative;
