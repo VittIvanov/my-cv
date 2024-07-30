@@ -20,6 +20,7 @@ export const PageWrapper = styled.div`
     justify-content: center;
     max-width: 320px;
     min-height: 100vh;
+    padding: 0px;
   }
 
 

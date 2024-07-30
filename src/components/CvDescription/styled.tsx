@@ -35,6 +35,12 @@ export const CvDescriptionWrapper = styled.div`
       flex-direction: column;
       align-items: center;
     }
+
+    button{
+      @media screen and (min-width: 769px){
+      transform: translateX(-60px);
+    }
+    }
   }
 
 .cv-info_more-information, .cv-info_min-information{
@@ -64,8 +70,8 @@ padding-left: 10px;
 
 .experience-list_item{
   list-style: inside;
-  text-indent: -30px;
-  padding-left: 10px;
+  text-indent: -29px;
+  padding-left: 11px;
 }
 
 
@@ -107,6 +113,10 @@ padding-left: 10px;
   div{
     color: ${colors.second_font_color};
   }
+  p{
+
+    color: ${colors.first_font_color};
+  }
 
   li{
     margin: 8px;
@@ -142,6 +152,9 @@ padding-left: 10px;
   }
   }
 
+  h3{
+    padding-left: 12px;
+  }
 }
 
 .hidden {

@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
       <Helmet>
         <title>Резюме</title>
       </Helmet>
-      <img src={process.env.PUBLIC_URL + "/assets/svg/Logo.svg"} className="logo_image" alt="logo-image" />
+      <img src={process.env.PUBLIC_URL + "/assets/svg/my-logo.svg"} className="logo_image" alt="logo-image" />
       <CvHeader />
       <CvDescription />
     </PageWrapper>

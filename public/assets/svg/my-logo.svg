@@ -1,0 +1,11 @@
+<svg width="240" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background oval -->
+  <ellipse cx="120" cy="40" rx="120" ry="30" fill="hsla(0, 0%, 20%, 0.4)" />
+
+  <!-- Initials -->
+  <text x="50%" y="40%" text-anchor="middle" fill="hsla(0, 0%, 98%, 0.8)" font-size="36" font-family="Palatino" font-weight= "normal" dy=".3em">VITT</text>
+
+  <!-- Bottom text (Frontend Wizard) -->
+  <text x="50%" y="70%" text-anchor="middle" fill="hsla(0, 87%, 53%, 0.7)" font-size="18"
+  font-weight= "bold" font-family="Palatino" dy=".3em">Web Wizard</text>
+</svg>

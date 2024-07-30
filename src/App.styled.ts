@@ -1,6 +1,5 @@
 import { createGlobalStyle } from "styled-components"
 import colors from "./consts/colors"
-import animation from "./consts/animation"
 
 export const AppStyles = createGlobalStyle`
 
@@ -29,13 +28,16 @@ export const AppStyles = createGlobalStyle`
       margin: auto;
       max-width: 320px;
       overflow-x: hidden;
-      background: linear-gradient(45deg, ${colors.background_first}, ${colors.background_second}, ${colors.background_third}, ${colors.background_fourth});
-      background-size: 200% 200%;
-      animation: gradientAnimation 15s ${animation.ease_animation} infinite;
+      background: linear-gradient(45deg, ${colors.background_fifth}, ${colors.background_fourth}, ${colors.background_third});
+      background-size: cover;
+
 
       @media screen and (min-width: 769px) {
         max-width: 1440px;
         margin: 0 auto;
+        background-size: 200% 200%;
+
+
 
 }
     }

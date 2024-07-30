@@ -8,7 +8,7 @@ const CvHeader: React.FC = () => {
       <section className="header-description">
         <div className="name">
           <h1>Иванов Виталий</h1>
-          <p> 37лет, Бишкек</p>
+          <p> 37 лет, Бишкек</p>
         </div>
 
         <div className="phone contacts">
